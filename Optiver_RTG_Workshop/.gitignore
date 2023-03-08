@@ -1,0 +1,7 @@
+*.dat
+score_board.csv
+*.log
+.idea/
+match_events.csv
+
+__pycache__/
