@@ -1,0 +1,1725 @@
+2023-03-08 10:13:04.768646 [INFO   ] [APP] application started
+2023-03-08 10:13:04.769583 [INFO   ] [APP] loading configuration from 'autotrader.json'
+2023-03-08 10:13:04.771069 [INFO   ] [CON] connecting to: 127.0.0.1:12345
+2023-03-08 10:13:04.771512 [INFO   ] [CON] connected successfully to: 127.0.0.1:12345
+2023-03-08 10:13:04.771573 [INFO   ] [BASE] logging in with teamname='TraderOne' and secret='secret'
+2023-03-08 10:13:04.772424 [DEBUG  ] [CON] 'Exec' sent 103 bytes
+2023-03-08 10:13:05.435105 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:05.435124 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:05.435133 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 1000; bid prices: 146900; bid volumes: 13000
+2023-03-08 10:13:05.435179 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:05.435190 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:05.435193 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:05.435195 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:05.435247 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:05.435538 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:05.435545 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:05.435666 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:05.435671 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:05.720777 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:05.720794 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:05.720800 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 146900; bid volumes: 4000
+2023-03-08 10:13:05.720817 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:05.720820 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:05.720823 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 146900; bid volumes: 10
+2023-03-08 10:13:05.949518 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:05.949544 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:05.949549 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 10400; bid prices: 146800; bid volumes: 740
+2023-03-08 10:13:05.949598 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:05.949608 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:05.949610 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:05.949613 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 146900; bid volumes: 10
+2023-03-08 10:13:05.949639 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:05.949745 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:05.949749 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:05.949829 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:05.949837 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.166182 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.166198 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:06.166203 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9410; bid prices: 146900; bid volumes: 4450
+2023-03-08 10:13:06.166243 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:06.166256 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.166259 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:06.166262 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 146800; bid volumes: 10
+2023-03-08 10:13:06.166279 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:06.166531 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:06.166537 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.166785 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:06.166791 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.230750 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:06.230755 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:06.230758 [INFO   ] [AUTO] order 1 filled for 10 lots at $147100 cents
+2023-03-08 10:13:06.230796 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:06.230804 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:06.230806 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.230831 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.230835 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:06.230838 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:06.230901 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:06.230906 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:06.230909 [INFO   ] [AUTO] hedge order 5 filled for 10 lots at $147100 average price in cents
+2023-03-08 10:13:06.433366 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.433375 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:06.433378 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147100; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:06.464501 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.464508 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:06.464512 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 6000; bid prices: 147000; bid volumes: 6000
+2023-03-08 10:13:06.464544 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:06.464553 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.464556 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:06.464559 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147600; ask volumes: 10000; bid prices: 146900; bid volumes: 10
+2023-03-08 10:13:06.464580 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:06.464803 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:06.464808 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.465099 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:06.465108 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.465134 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:06.465141 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:06.465143 [INFO   ] [AUTO] order 7 filled for 1 lots at $147000 cents
+2023-03-08 10:13:06.465178 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.465182 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:06.465186 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:06.465190 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:06.465193 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:06.465195 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.465265 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:06.465271 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:06.465273 [INFO   ] [AUTO] hedge order 8 filled for 1 lots at $147100 average price in cents
+2023-03-08 10:13:06.722516 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.722536 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:06.722542 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1000; bid prices: 147000; bid volumes: 6000
+2023-03-08 10:13:06.722586 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:06.722595 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.722598 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:06.722600 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 10; bid prices: 147100; bid volumes: 9
+2023-03-08 10:13:06.722617 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:06.722763 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:06.722772 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.722828 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:06.722832 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.722836 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.722859 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:06.722863 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.952435 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.952445 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:06.952449 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 20; bid prices: 147000; bid volumes: 2900
+2023-03-08 10:13:06.952481 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:06.952491 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:06.952493 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:06.952496 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147000; bid volumes: 10
+2023-03-08 10:13:06.952518 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:06.952641 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:06.952649 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:06.952709 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:06.952716 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:07.170509 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.170516 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:07.170519 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 20; bid prices: 147000; bid volumes: 3900
+2023-03-08 10:13:07.170535 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.170539 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:07.170542 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 10
+2023-03-08 10:13:07.420214 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.420219 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:07.420222 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9420; bid prices: 147000; bid volumes: 900
+2023-03-08 10:13:07.420242 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.420245 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:07.420247 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 10
+2023-03-08 10:13:07.484689 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.484698 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:07.484702 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 900
+2023-03-08 10:13:07.586852 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.586857 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:07.586860 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146900; bid volumes: 500
+2023-03-08 10:13:07.724125 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.724130 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:07.724133 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 13400; bid prices: 146900; bid volumes: 4000
+2023-03-08 10:13:07.724173 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:07.724186 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.724189 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:07.724192 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 10
+2023-03-08 10:13:07.724212 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:07.724434 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:07.724439 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:07.724631 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:07.724636 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:07.938913 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:07.938919 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:07.938922 [INFO   ] [AUTO] order 12 filled for 10 lots at $146900 cents
+2023-03-08 10:13:07.939007 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.939011 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:07.939014 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146900; bid volumes: 10
+2023-03-08 10:13:07.939018 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:07.939021 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:07.939023 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:07.939060 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:07.939065 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:07.939068 [INFO   ] [AUTO] hedge order 13 filled for 10 lots at $146800 average price in cents
+2023-03-08 10:13:07.964877 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.964884 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:07.964887 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 1000
+2023-03-08 10:13:07.964915 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:07.964924 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:07.964926 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:07.964929 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 146400; bid volumes: 9939
+2023-03-08 10:13:07.964953 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:07.965053 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:07.965058 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:07.965118 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:07.965123 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:07.965145 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:07.965149 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:08.214995 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:08.215020 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:08.215026 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146700; bid volumes: 1000
+2023-03-08 10:13:08.215083 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:08.215099 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:08.215102 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:08.215105 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146800; bid volumes: 10
+2023-03-08 10:13:08.215130 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:08.215227 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:08.215233 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:08.215262 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:08.215266 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:08.484095 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:08.484103 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:08.484107 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 10400; bid prices: 146800; bid volumes: 3000
+2023-03-08 10:13:08.484139 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:08.484148 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:08.484151 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:08.484154 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146700; bid volumes: 10
+2023-03-08 10:13:08.484171 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:08.484279 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:08.484283 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:08.484287 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:08.679019 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:08.679038 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:08.679043 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146900; bid volumes: 5000
+2023-03-08 10:13:08.679088 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:08.679099 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:08.679102 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:08.679104 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146800; bid volumes: 10
+2023-03-08 10:13:08.679131 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:08.679186 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:08.679190 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:08.679211 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:08.679214 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:08.845215 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:08.845239 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:08.845244 [INFO   ] [AUTO] order 14 filled for 10 lots at $147000 cents
+2023-03-08 10:13:08.845278 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:08.845282 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:08.845286 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:08.845291 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:08.845294 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:08.845297 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:08.845384 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:08.845389 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:08.845392 [INFO   ] [AUTO] hedge order 19 filled for 10 lots at $147000 average price in cents
+2023-03-08 10:13:08.904502 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:08.904509 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:08.904514 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146800; bid volumes: 14000
+2023-03-08 10:13:08.904547 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:08.904558 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:08.904561 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:08.904563 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 9917; bid prices: 146900; bid volumes: 10
+2023-03-08 10:13:08.904599 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:08.904641 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:08.904649 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:08.904713 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:08.904718 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:08.904767 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:08.904771 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:09.089101 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:09.089119 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:09.089124 [INFO   ] [AUTO] order 21 filled for 10 lots at $146800 cents
+2023-03-08 10:13:09.089161 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:09.089169 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:09.089171 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:09.089205 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:09.089209 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:09.089213 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146800; bid volumes: 10
+2023-03-08 10:13:09.089284 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:09.089289 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:09.089291 [INFO   ] [AUTO] hedge order 22 filled for 10 lots at $146800 average price in cents
+2023-03-08 10:13:09.199835 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:09.199855 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:09.199860 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146800; bid volumes: 13000
+2023-03-08 10:13:09.199906 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:09.199911 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:09.199913 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:09.199916 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146300; bid volumes: 9993
+2023-03-08 10:13:09.200020 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:09.200028 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:09.402177 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:09.402214 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:09.402223 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 13400; bid prices: 146800; bid volumes: 2000
+2023-03-08 10:13:09.402262 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:09.402266 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:09.402269 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146800; bid volumes: 10
+2023-03-08 10:13:09.649590 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:09.649625 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:09.649632 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 13400; bid prices: 146800; bid volumes: 5000
+2023-03-08 10:13:09.649655 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:09.649662 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:09.649665 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146800; bid volumes: 10
+2023-03-08 10:13:09.943985 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:09.944009 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:09.944014 [INFO   ] [AUTO] order 23 filled for 10 lots at $146800 cents
+2023-03-08 10:13:09.944056 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:09.944104 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:09.944111 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:09.944152 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:09.944158 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:09.944161 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146800; bid volumes: 10
+2023-03-08 10:13:09.944234 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:09.944242 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:09.944245 [INFO   ] [AUTO] hedge order 24 filled for 10 lots at $146800 average price in cents
+2023-03-08 10:13:09.976358 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:09.976378 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:09.976383 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 15130; bid prices: 146800; bid volumes: 2000
+2023-03-08 10:13:09.976424 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:09.976434 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:09.976437 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:09.976440 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146300; bid volumes: 9991
+2023-03-08 10:13:09.976467 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:09.976613 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:09.976620 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:09.976702 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:09.976709 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:09.976810 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:09.976819 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.224889 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:10.224908 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:10.224914 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 12400; bid prices: 146700; bid volumes: 4000
+2023-03-08 10:13:10.224959 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:10.224970 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:10.224972 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:10.224975 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 10; bid prices: 146700; bid volumes: 10
+2023-03-08 10:13:10.224993 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:10.225090 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:10.225096 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.225148 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:10.225152 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.225178 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:10.225185 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.225188 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.475905 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:10.475927 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:10.475933 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 9000; bid prices: 146700; bid volumes: 2000
+2023-03-08 10:13:10.475979 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:10.475988 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:10.475991 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:10.475994 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 10
+2023-03-08 10:13:10.476019 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:10.476155 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:10.476164 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.476252 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:10.476257 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.636331 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:10.636358 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:10.636365 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146800; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:10.677311 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:10.677319 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:10.677323 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9000; bid prices: 146800; bid volumes: 14000
+2023-03-08 10:13:10.677378 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:10.677388 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:10.677391 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:10.677393 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146700; ask volumes: 10; bid prices: 146600; bid volumes: 10
+2023-03-08 10:13:10.677417 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:10.677540 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:10.677547 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.677587 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:10.677591 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.677637 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:10.677643 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.677645 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.918734 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:10.918751 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:10.918757 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1000; bid prices: 147000; bid volumes: 5000
+2023-03-08 10:13:10.918801 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:10.918812 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:10.918814 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:10.918817 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 10; bid prices: 146700; bid volumes: 10
+2023-03-08 10:13:10.918840 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:10.919028 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:10.919034 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.919175 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:10.919182 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.919227 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:10.919237 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:10.919240 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.234072 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.234092 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:11.234096 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 3000
+2023-03-08 10:13:11.234146 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:11.234155 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.234158 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:11.234161 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 84
+2023-03-08 10:13:11.234183 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:11.234282 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:11.234289 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.234315 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:11.234321 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.234355 [DEBUG  ] [CON] 'Exec' received 34 bytes
+2023-03-08 10:13:11.234359 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:11.234363 [INFO   ] [AUTO] order 34 filled for 10 lots at $147000 cents
+2023-03-08 10:13:11.234379 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.234399 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.234402 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:11.234406 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 10
+2023-03-08 10:13:11.234410 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:11.234412 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:11.234414 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.234503 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:11.234509 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:11.234512 [INFO   ] [AUTO] hedge order 36 filled for 10 lots at $147000 average price in cents
+2023-03-08 10:13:11.477709 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.477715 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:11.477719 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 3400; bid prices: 146700; bid volumes: 4000
+2023-03-08 10:13:11.477751 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:11.477756 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.477758 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:11.477760 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 74
+2023-03-08 10:13:11.478068 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:11.478073 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:11.478075 [INFO   ] [AUTO] order 37 filled for 10 lots at $147000 cents
+2023-03-08 10:13:11.478106 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:11.478246 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:11.478251 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.478390 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.478393 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:11.478396 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 10
+2023-03-08 10:13:11.478501 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:11.478505 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:11.478508 [INFO   ] [AUTO] hedge order 38 filled for 10 lots at $146900 average price in cents
+2023-03-08 10:13:11.491900 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.491905 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:11.491908 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146800; bid volumes: 10
+2023-03-08 10:13:11.674639 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.674655 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:11.674659 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 12400; bid prices: 146600; bid volumes: 2000
+2023-03-08 10:13:11.674704 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:11.674714 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.674717 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:11.674719 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 64
+2023-03-08 10:13:11.674767 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:11.674983 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:11.674989 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.675257 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:11.675262 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:11.675265 [INFO   ] [AUTO] order 39 filled for 10 lots at $147000 cents
+2023-03-08 10:13:11.675291 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:11.675303 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:11.675305 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.675331 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.675336 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:11.675339 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 10
+2023-03-08 10:13:11.675346 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:11.675349 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.675433 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:11.675438 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:11.675440 [INFO   ] [AUTO] hedge order 41 filled for 10 lots at $146700 average price in cents
+2023-03-08 10:13:11.909086 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.909113 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:11.909120 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146700; ask volumes: 1010; bid prices: 146600; bid volumes: 4000
+2023-03-08 10:13:11.909173 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:11.909185 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.909188 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:11.909191 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 68
+2023-03-08 10:13:11.909218 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:11.909378 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:11.909385 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.909443 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:11.909450 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:11.909453 [INFO   ] [AUTO] order 42 filled for 10 lots at $147000 cents
+2023-03-08 10:13:11.909481 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:11.909486 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:11.909489 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.909509 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:11.909513 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:11.909517 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 10
+2023-03-08 10:13:11.909524 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:11.909526 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:11.909573 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:11.909581 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:11.909584 [INFO   ] [AUTO] hedge order 44 filled for 10 lots at $146700 average price in cents
+2023-03-08 10:13:12.033271 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.033298 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:12.033306 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147200; ask volumes: 44; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:12.076761 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.076780 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:12.076784 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146700; ask volumes: 1010; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:12.151190 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.151210 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:12.151215 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 12150; bid prices: 146700; bid volumes: 3000
+2023-03-08 10:13:12.151264 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:12.151273 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.151278 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:12.151281 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 9976; bid prices: 147000; bid volumes: 58
+2023-03-08 10:13:12.151322 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:12.151405 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.151413 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.151498 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.151504 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.151568 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.151572 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.386696 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.386710 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:12.386714 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146900; ask volumes: 750; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:12.399073 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.399079 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:12.399082 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 146900; bid volumes: 10000
+2023-03-08 10:13:12.399117 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:12.399126 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.399129 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:12.399131 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 58
+2023-03-08 10:13:12.399157 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:12.399283 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.399292 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.399378 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.399385 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.399449 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.399455 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.399500 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.399507 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.658202 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.658233 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:12.658240 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146800; bid volumes: 16760
+2023-03-08 10:13:12.658300 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:12.658311 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.658313 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:12.658316 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 55; bid prices: 147100; bid volumes: 10
+2023-03-08 10:13:12.658340 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:12.658441 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.658448 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.658533 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.658540 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.658572 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:12.658580 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.658584 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.947185 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.947217 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:12.947223 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 16410; bid prices: 146800; bid volumes: 14760
+2023-03-08 10:13:12.947278 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:12.947288 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:12.947291 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:12.947294 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147000; bid volumes: 68
+2023-03-08 10:13:12.947320 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:12.947398 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.947406 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:12.947452 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:12.947456 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:13.200762 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:13.200773 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:13.200776 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 10400; bid prices: 146800; bid volumes: 3000
+2023-03-08 10:13:13.200803 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:13.200812 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:13.200814 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:13.200817 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 55; bid prices: 147000; bid volumes: 68
+2023-03-08 10:13:13.200841 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:13.200912 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:13.200919 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:13.200989 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:13.200995 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:13.412712 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:13.412717 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:13.412720 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146800; bid volumes: 14800
+2023-03-08 10:13:13.412737 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:13.412740 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:13.412742 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147000; bid volumes: 68
+2023-03-08 10:13:13.578299 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:13.578305 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:13.578308 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 39
+2023-03-08 10:13:13.664389 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:13.664394 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:13.664398 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 12020
+2023-03-08 10:13:13.664416 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:13.664419 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:13.664422 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147000; bid volumes: 29
+2023-03-08 10:13:13.950633 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:13.950639 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:13.950642 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 12400; bid prices: 146800; bid volumes: 2000
+2023-03-08 10:13:13.950657 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:13.950661 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:13.950663 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147000; bid volumes: 29
+2023-03-08 10:13:14.221631 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.221642 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:14.221646 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 12400; bid prices: 146700; bid volumes: 20
+2023-03-08 10:13:14.221696 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:14.221706 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.221708 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:14.221711 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147000; bid volumes: 29
+2023-03-08 10:13:14.221736 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:14.221880 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.221887 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.221923 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.221927 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.221948 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:14.221952 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.221954 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.339766 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:14.339772 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:14.339775 [INFO   ] [AUTO] order 54 filled for 10 lots at $146900 cents
+2023-03-08 10:13:14.339804 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.339812 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:14.339815 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 19
+2023-03-08 10:13:14.339820 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:14.339822 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.339825 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.339880 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:14.339885 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:14.339888 [INFO   ] [AUTO] hedge order 55 filled for 10 lots at $146700 average price in cents
+2023-03-08 10:13:14.436673 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.436678 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:14.436681 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 12400; bid prices: 146700; bid volumes: 2020
+2023-03-08 10:13:14.436709 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:14.436718 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.436720 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:14.436723 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 100; bid prices: 146200; bid volumes: 10000
+2023-03-08 10:13:14.436754 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:14.436816 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.436819 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.436839 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.436842 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.436891 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.436895 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:14.436898 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:14.436902 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:14.436904 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:14.436906 [INFO   ] [AUTO] order 57 filled for 10 lots at $146400 cents
+2023-03-08 10:13:14.436934 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:14.436937 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.436939 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.437010 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:14.437015 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:14.437017 [INFO   ] [AUTO] hedge order 58 filled for 10 lots at $146700 average price in cents
+2023-03-08 10:13:14.661430 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.661438 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:14.661441 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 12400; bid prices: 146700; bid volumes: 2020
+2023-03-08 10:13:14.661476 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:14.661485 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.661487 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:14.661489 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 90; bid prices: 146200; bid volumes: 10000
+2023-03-08 10:13:14.661513 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:14.661753 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.661761 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.661895 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.661900 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.661918 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:14.661921 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:14.661924 [INFO   ] [AUTO] order 60 filled for 10 lots at $146400 cents
+2023-03-08 10:13:14.661958 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.661962 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:14.661965 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:14.661968 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:14.661971 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.661973 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.662003 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:14.662008 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:14.662011 [INFO   ] [AUTO] hedge order 61 filled for 10 lots at $146600 average price in cents
+2023-03-08 10:13:14.951547 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.951552 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:14.951555 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 1010; bid prices: 146600; bid volumes: 13810
+2023-03-08 10:13:14.951582 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:14.951590 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.951592 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:14.951595 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 80; bid prices: 146100; bid volumes: 10000
+2023-03-08 10:13:14.951615 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:14.951719 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.951725 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.951783 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:14.951791 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.951808 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:14.951813 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:14.951816 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:14.951827 [DEBUG  ] [CON] 'Exec' received 34 bytes
+2023-03-08 10:13:14.951830 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:14.951832 [INFO   ] [AUTO] order 63 filled for 10 lots at $146400 cents
+2023-03-08 10:13:14.951839 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:14.951857 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:14.951920 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:14.951925 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:14.951928 [INFO   ] [AUTO] hedge order 64 filled for 10 lots at $146600 average price in cents
+2023-03-08 10:13:15.169680 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.169686 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:15.169689 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146700; ask volumes: 1000; bid prices: 146500; bid volumes: 13790
+2023-03-08 10:13:15.169715 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:15.169723 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.169726 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:15.169728 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146100; bid volumes: 10000
+2023-03-08 10:13:15.169750 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:15.169836 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:15.169840 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:15.169896 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.169901 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:15.169904 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:15.169908 [DEBUG  ] [CON] 'Exec' received 53 bytes
+2023-03-08 10:13:15.169910 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:15.169912 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:15.169915 [INFO   ] [AUTO] order 66 filled for 10 lots at $146400 cents
+2023-03-08 10:13:15.169925 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:15.169944 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:15.170020 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:15.170024 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:15.170026 [INFO   ] [AUTO] hedge order 67 filled for 10 lots at $146500 average price in cents
+2023-03-08 10:13:15.385246 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.385251 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:15.385254 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 1010; bid prices: 146600; bid volumes: 13810
+2023-03-08 10:13:15.385282 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:15.385286 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.385287 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:15.385290 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 60; bid prices: 146000; bid volumes: 10000
+2023-03-08 10:13:15.385444 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:15.385448 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:15.385450 [INFO   ] [AUTO] order 68 filled for 10 lots at $146400 cents
+2023-03-08 10:13:15.385477 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:15.385537 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.385543 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:15.385546 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:15.385563 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:15.385567 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:15.385594 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:15.385597 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:15.385599 [INFO   ] [AUTO] hedge order 69 filled for 10 lots at $146600 average price in cents
+2023-03-08 10:13:15.642448 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.642453 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:15.642457 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 2000; bid prices: 146700; bid volumes: 13810
+2023-03-08 10:13:15.642486 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:15.642490 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.642492 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:15.642494 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 50; bid prices: 146200; bid volumes: 10000
+2023-03-08 10:13:15.642596 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:15.642603 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:15.642605 [INFO   ] [AUTO] order 70 filled for 10 lots at $146400 cents
+2023-03-08 10:13:15.642628 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.642631 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:15.642634 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:15.642638 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:15.642665 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:15.642668 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:15.642705 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:15.642709 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:15.642711 [INFO   ] [AUTO] hedge order 71 filled for 10 lots at $146700 average price in cents
+2023-03-08 10:13:15.938995 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.939002 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:15.939005 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146900; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:15.963519 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.963525 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:15.963528 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146900; bid volumes: 1390
+2023-03-08 10:13:15.963555 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:15.963560 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.963562 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:15.963564 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 40; bid prices: 146200; bid volumes: 10000
+2023-03-08 10:13:15.963721 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:15.963727 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:15.963729 [INFO   ] [AUTO] order 72 filled for 10 lots at $146400 cents
+2023-03-08 10:13:15.963753 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:15.963788 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:15.963792 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:15.963795 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:15.963798 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:15.963800 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:15.963844 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:15.963850 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:15.963852 [INFO   ] [AUTO] hedge order 73 filled for 10 lots at $146900 average price in cents
+2023-03-08 10:13:16.083536 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.083546 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:16.083550 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146200; bid volumes: 12
+2023-03-08 10:13:16.143482 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.143494 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:16.143497 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147000; ask volumes: 710; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:16.143518 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.143524 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:16.143528 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 30; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:16.167801 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.167806 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:16.167809 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 3430; bid prices: 147000; bid volumes: 2020
+2023-03-08 10:13:16.167863 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:16.167873 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.167875 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:16.167878 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146600; ask volumes: 10; bid prices: 146500; bid volumes: 9970
+2023-03-08 10:13:16.167935 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:16.168016 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:16.168020 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:16.168076 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:16.168080 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:16.168102 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:16.168105 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:16.238746 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:16.238752 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:16.238755 [INFO   ] [AUTO] order 74 filled for 10 lots at $146700 cents
+2023-03-08 10:13:16.238783 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:16.238876 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:16.238882 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:16.238909 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.238915 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:16.238919 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146700; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:16.238994 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:16.239000 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:16.239003 [INFO   ] [AUTO] hedge order 76 filled for 10 lots at $147200 average price in cents
+2023-03-08 10:13:16.405639 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.405648 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:16.405652 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 3030; bid prices: 147000; bid volumes: 5780
+2023-03-08 10:13:16.405693 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:16.405702 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.405704 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:16.405707 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 22; bid prices: 146500; bid volumes: 9980
+2023-03-08 10:13:16.405725 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:13:16.405804 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:16.405809 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:16.405813 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:16.405832 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:16.405835 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:16.653478 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.653497 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:16.653501 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 2030; bid prices: 147000; bid volumes: 7780
+2023-03-08 10:13:16.653527 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.653531 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:16.653534 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 162
+2023-03-08 10:13:16.919736 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.919754 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:16.919759 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1030; bid prices: 147100; bid volumes: 13020
+2023-03-08 10:13:16.919815 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:16.919825 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:16.919827 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:16.919830 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 162
+2023-03-08 10:13:16.919857 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:16.919963 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:16.919970 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:16.919976 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:17.086157 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:17.086172 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:17.086176 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147200; ask volumes: 1030; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:17.136225 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:17.136232 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:17.136236 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 4000; bid prices: 147000; bid volumes: 3020
+2023-03-08 10:13:17.136283 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:17.136296 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:17.136298 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:17.136301 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146700; bid volumes: 10010
+2023-03-08 10:13:17.136325 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:17.136462 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:17.136467 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:17.136526 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:17.136533 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:17.189973 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:17.189979 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:13:17.189982 [INFO   ] [AUTO] order 77 filled for 10 lots at $146800 cents
+2023-03-08 10:13:17.190010 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:13:17.190016 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:17.190018 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:17.190044 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:17.190049 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:17.190053 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:17.190233 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:13:17.190238 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:13:17.190241 [INFO   ] [AUTO] hedge order 81 filled for 10 lots at $147100 average price in cents
+2023-03-08 10:13:17.435534 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:17.435539 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:17.435542 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 12400; bid prices: 146900; bid volumes: 16760
+2023-03-08 10:13:17.435574 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:17.435578 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:17.435580 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:17.435583 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 38; bid prices: 146600; bid volumes: 162
+2023-03-08 10:13:17.435745 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:17.435752 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:17.730987 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:17.730995 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:17.730999 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 15400; bid prices: 146800; bid volumes: 13780
+2023-03-08 10:13:17.731035 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:17.731046 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:17.731048 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:17.731051 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 10; bid prices: 146600; bid volumes: 162
+2023-03-08 10:13:17.731072 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:17.731220 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:17.731224 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:17.731335 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:17.731341 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:17.731365 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:17.731370 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:17.731372 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:17.922756 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:17.922768 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:17.922771 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 14400; bid prices: 146900; bid volumes: 13790
+2023-03-08 10:13:17.922807 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:17.922817 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:17.922819 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:17.922822 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 152
+2023-03-08 10:13:17.922847 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:13:17.922928 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:17.922933 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:17.922956 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:17.922961 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:18.207580 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:18.207586 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:18.207589 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 14400; bid prices: 146900; bid volumes: 2020
+2023-03-08 10:13:18.207605 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:18.207608 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:18.207611 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 162
+2023-03-08 10:13:18.454559 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:18.454563 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:18.454566 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 3000; bid prices: 146900; bid volumes: 14790
+2023-03-08 10:13:18.454582 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:18.454585 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:18.454588 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 162
+2023-03-08 10:13:18.577354 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:18.577358 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:18.577361 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146700; bid volumes: 41
+2023-03-08 10:13:18.650030 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:18.650036 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:18.650039 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 11400; bid prices: 146900; bid volumes: 12020
+2023-03-08 10:13:18.650055 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:18.650058 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:18.650060 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 159
+2023-03-08 10:13:18.904121 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:18.904126 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:18.904129 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 11400; bid prices: 146900; bid volumes: 4020
+2023-03-08 10:13:18.904145 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:18.904148 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:18.904150 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 159
+2023-03-08 10:13:19.227986 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:19.227993 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:19.227998 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 4400; bid prices: 146800; bid volumes: 11800
+2023-03-08 10:13:19.228038 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:19.228048 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:19.228050 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:19.228053 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 159
+2023-03-08 10:13:19.228076 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:19.228265 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:19.228270 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.228412 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:19.228417 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.228439 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:19.228442 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.228444 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.466397 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:19.466403 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:19.466405 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 14400; bid prices: 146900; bid volumes: 2000
+2023-03-08 10:13:19.466430 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:19.466438 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:19.466441 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:19.466443 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146700; ask volumes: 10; bid prices: 146600; bid volumes: 149
+2023-03-08 10:13:19.466467 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:19.466565 [DEBUG  ] [CON] 'Exec' received 57 bytes
+2023-03-08 10:13:19.466572 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.466575 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.466579 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.466598 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:19.466601 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.633408 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:19.633414 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:13:19.633417 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147200; ask volumes: 950; bid prices: 0; bid volumes: 0
+2023-03-08 10:13:19.717358 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:19.717362 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:19.717365 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1050; bid prices: 147000; bid volumes: 14800
+2023-03-08 10:13:19.717397 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:19.717405 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:19.717407 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:19.717410 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 159
+2023-03-08 10:13:19.717430 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:19.717544 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:19.717548 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.717595 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:19.717602 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.717622 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:19.717627 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.717645 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:19.717648 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.917360 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:19.917365 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:19.917368 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 13400; bid prices: 146900; bid volumes: 2000
+2023-03-08 10:13:19.917393 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:13:19.917402 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:19.917404 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:19.917407 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 85; bid prices: 146700; bid volumes: 10
+2023-03-08 10:13:19.917439 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:13:19.917531 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:19.917536 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.917557 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:13:19.917560 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.917563 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:19.917583 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:13:19.917586 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:13:20.222361 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:20.222367 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:20.222370 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 11400; bid prices: 146900; bid volumes: 13020
+2023-03-08 10:13:20.222389 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:20.222392 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:20.222394 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 159
+2023-03-08 10:13:20.482474 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:20.482480 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:20.482483 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 11400; bid prices: 146900; bid volumes: 3000
+2023-03-08 10:13:20.482499 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:13:20.482503 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:13:20.482505 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 159
+2023-03-08 10:13:20.651568 [INFO   ] [APP] application received signal 2, shutting down
+2023-03-08 10:13:20.651588 [INFO   ] [CON] 'Info' closing
+2023-03-08 10:13:20.651606 [INFO   ] [CON] 'Exec' closing
+2023-03-08 10:14:04.653331 [INFO   ] [APP] application started
+2023-03-08 10:14:04.653840 [INFO   ] [APP] loading configuration from 'autotrader.json'
+2023-03-08 10:14:04.654089 [INFO   ] [CON] connecting to: 127.0.0.1:12345
+2023-03-08 10:14:04.654331 [INFO   ] [CON] connected successfully to: 127.0.0.1:12345
+2023-03-08 10:14:04.654359 [INFO   ] [BASE] logging in with teamname='TraderOne' and secret='secret'
+2023-03-08 10:14:04.654800 [DEBUG  ] [CON] 'Exec' sent 103 bytes
+2023-03-08 10:14:08.639018 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:08.639050 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:08.639064 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 1000; bid prices: 146900; bid volumes: 13000
+2023-03-08 10:14:08.639103 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:08.639114 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:08.639117 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:08.639120 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:08.639144 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:08.639238 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:08.639244 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:08.639273 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:08.639281 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:08.855900 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:08.855920 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:08.855925 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 146900; bid volumes: 5000
+2023-03-08 10:14:08.855943 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:08.855947 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:08.855950 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 146900; bid volumes: 10
+2023-03-08 10:14:09.119680 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.119702 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:09.119711 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 10400; bid prices: 146300; bid volumes: 1000
+2023-03-08 10:14:09.119757 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:09.119768 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.119770 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:09.119773 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 146900; bid volumes: 10
+2023-03-08 10:14:09.119798 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:09.119912 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:09.119920 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:09.119996 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:09.120001 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:09.433361 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.433386 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:09.433391 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9410; bid prices: 146900; bid volumes: 3450
+2023-03-08 10:14:09.433435 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:09.433445 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.433448 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:09.433451 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 146400; bid volumes: 10000
+2023-03-08 10:14:09.433501 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:09.433654 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:09.433661 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:09.433664 [INFO   ] [AUTO] order 1 filled for 10 lots at $147100 cents
+2023-03-08 10:14:09.433691 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:09.433698 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:09.433701 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:09.433753 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:09.433758 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:09.433781 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:09.433785 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:09.433803 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.433806 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:09.433809 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:09.433922 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:09.433926 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:09.433929 [INFO   ] [AUTO] hedge order 5 filled for 10 lots at $147100 average price in cents
+2023-03-08 10:14:09.613275 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.613304 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:09.613311 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 5000
+2023-03-08 10:14:09.613347 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:09.613355 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.613359 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:09.613362 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147600; ask volumes: 10000; bid prices: 146900; bid volumes: 10
+2023-03-08 10:14:09.613417 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:09.614222 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:09.614234 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:09.614331 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:09.614336 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:09.614358 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:09.614365 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:09.614414 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.614421 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:09.614424 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147100; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:09.690527 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:09.690548 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:09.690553 [INFO   ] [AUTO] order 7 filled for 1 lots at $147100 cents
+2023-03-08 10:14:09.690591 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:09.690598 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:09.690601 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:09.690619 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.690623 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:09.690627 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147100; bid volumes: 1
+2023-03-08 10:14:09.690681 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:09.690688 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:09.690691 [INFO   ] [AUTO] hedge order 8 filled for 1 lots at $147100 average price in cents
+2023-03-08 10:14:09.895486 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.895506 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:09.895512 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1000; bid prices: 147100; bid volumes: 1000
+2023-03-08 10:14:09.895535 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:09.895539 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:09.895542 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147100; bid volumes: 9
+2023-03-08 10:14:10.177050 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:10.177076 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:10.177083 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 20; bid prices: 147000; bid volumes: 2900
+2023-03-08 10:14:10.177132 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:10.177142 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:10.177144 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:10.177147 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147100; bid volumes: 9
+2023-03-08 10:14:10.177173 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:14:10.177455 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:10.177462 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:10.177529 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:10.177545 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:10.177576 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:10.177581 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:10.177613 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:10.177617 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:10.428176 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:10.428195 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:10.428200 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 20; bid prices: 147000; bid volumes: 5640
+2023-03-08 10:14:10.428219 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:10.428223 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:10.428226 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 10
+2023-03-08 10:14:10.629539 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:10.629557 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:10.629562 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9420; bid prices: 147000; bid volumes: 900
+2023-03-08 10:14:10.629590 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:10.629598 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:10.629602 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 10
+2023-03-08 10:14:10.646280 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:10.646291 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:10.646294 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 900
+2023-03-08 10:14:10.781729 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:10.781748 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:10.781754 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146900; bid volumes: 500
+2023-03-08 10:14:10.927677 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:10.927696 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:10.927701 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 147000; bid volumes: 1000
+2023-03-08 10:14:10.927730 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:10.927735 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:10.927737 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 10
+2023-03-08 10:14:11.130021 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:11.130058 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:11.130066 [INFO   ] [AUTO] order 10 filled for 10 lots at $147000 cents
+2023-03-08 10:14:11.130107 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:11.130115 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:11.130118 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:11.130157 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:11.130163 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:11.130167 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 10
+2023-03-08 10:14:11.130283 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:11.130287 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:11.130290 [INFO   ] [AUTO] hedge order 11 filled for 10 lots at $146800 average price in cents
+2023-03-08 10:14:11.146766 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:11.146779 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:11.146783 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 2000
+2023-03-08 10:14:11.146813 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:11.146822 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:11.146825 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:11.146827 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 146400; bid volumes: 9939
+2023-03-08 10:14:11.146849 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:11.147035 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:11.147039 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:11.147062 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:11.147066 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:11.147098 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:11.147102 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:11.394577 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:11.394610 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:11.394619 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146700; bid volumes: 1000
+2023-03-08 10:14:11.394661 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:11.394672 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:11.394675 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:11.394677 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146800; bid volumes: 10
+2023-03-08 10:14:11.394708 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:11.394802 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:11.394807 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:11.394891 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:11.394896 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:11.655849 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:11.655869 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:11.655875 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146700; bid volumes: 1000
+2023-03-08 10:14:11.655903 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:11.655907 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:11.655914 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146700; bid volumes: 10
+2023-03-08 10:14:11.856926 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:11.856944 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:11.856949 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9400; bid prices: 146800; bid volumes: 3000
+2023-03-08 10:14:11.856995 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:11.857004 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:11.857007 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:11.857010 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146700; bid volumes: 10
+2023-03-08 10:14:11.857062 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:11.857281 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:11.857286 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:11.857409 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:11.857416 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:12.092904 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:12.092948 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:12.092958 [INFO   ] [AUTO] order 12 filled for 10 lots at $147000 cents
+2023-03-08 10:14:12.092994 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:12.093002 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:12.093004 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:12.093144 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:12.093149 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:12.093152 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:12.093267 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:12.093272 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:12.093276 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9000; bid prices: 146800; bid volumes: 13000
+2023-03-08 10:14:12.093287 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:12.093290 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:12.093293 [INFO   ] [AUTO] hedge order 16 filled for 10 lots at $147000 average price in cents
+2023-03-08 10:14:12.093328 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:12.093332 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:12.093334 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:12.093336 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 9917; bid prices: 146800; bid volumes: 10
+2023-03-08 10:14:12.093406 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:12.093413 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:12.289414 [DEBUG  ] [CON] 'Exec' received 34 bytes
+2023-03-08 10:14:12.289445 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:12.289452 [INFO   ] [AUTO] order 15 filled for 10 lots at $146800 cents
+2023-03-08 10:14:12.289467 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:12.289490 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:12.289532 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:12.289535 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:12.289540 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146800; bid volumes: 10
+2023-03-08 10:14:12.289641 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:12.289647 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:12.289650 [INFO   ] [AUTO] hedge order 18 filled for 10 lots at $146800 average price in cents
+2023-03-08 10:14:12.355122 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:12.355135 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:12.355141 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146800; bid volumes: 13000
+2023-03-08 10:14:12.355172 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:12.355177 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:12.355179 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:12.355182 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146300; bid volumes: 9993
+2023-03-08 10:14:12.355301 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:12.355307 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:12.673890 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:12.673919 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:12.673926 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 14120; bid prices: 146800; bid volumes: 2000
+2023-03-08 10:14:12.673950 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:12.673959 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:12.673962 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146800; bid volumes: 10
+2023-03-08 10:14:12.921554 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:12.921563 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:12.921566 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 13400; bid prices: 146800; bid volumes: 5000
+2023-03-08 10:14:12.921590 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:12.921594 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:12.921597 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146800; bid volumes: 10
+2023-03-08 10:14:13.094505 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:13.094534 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:13.094541 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 13400; bid prices: 146800; bid volumes: 5000
+2023-03-08 10:14:13.094561 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:13.094568 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:13.094571 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146800; bid volumes: 10
+2023-03-08 10:14:13.137081 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:13.137097 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:13.137101 [INFO   ] [AUTO] order 19 filled for 10 lots at $146800 cents
+2023-03-08 10:14:13.137133 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:13.137138 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:13.137140 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:13.137163 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:13.137170 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:13.137173 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146800; bid volumes: 10
+2023-03-08 10:14:13.137243 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:13.137249 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:13.137251 [INFO   ] [AUTO] hedge order 20 filled for 10 lots at $146800 average price in cents
+2023-03-08 10:14:13.408419 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:13.408448 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:13.408453 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 12400; bid prices: 146700; bid volumes: 4000
+2023-03-08 10:14:13.408487 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:13.408496 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:13.408500 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:13.408503 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 10; bid prices: 146100; bid volumes: 10000
+2023-03-08 10:14:13.408535 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:13.408618 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:13.408625 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:13.408653 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:14:13.408657 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:13.408659 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:13.620799 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:13.620816 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:13.620820 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 13400; bid prices: 146700; bid volumes: 5000
+2023-03-08 10:14:13.620847 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:13.620851 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:13.620853 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 10
+2023-03-08 10:14:13.840866 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:13.840883 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:13.840888 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146800; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:13.862883 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:13.862898 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:13.862903 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9000; bid prices: 146800; bid volumes: 14000
+2023-03-08 10:14:13.862938 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:13.862947 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:13.862950 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:13.862953 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 10
+2023-03-08 10:14:13.862982 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:14:13.863203 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:13.863212 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:13.863239 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:14:13.863243 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:13.863245 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:13.863268 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:13.863271 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.159577 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.159597 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:14.159602 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 9400; bid prices: 147000; bid volumes: 3000
+2023-03-08 10:14:14.159646 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:14.159656 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.159658 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:14.159661 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 10; bid prices: 146700; bid volumes: 10
+2023-03-08 10:14:14.159715 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:14:14.159841 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:14:14.159847 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.159852 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.159875 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:14:14.159879 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.159881 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.353849 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.353869 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:14.353874 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 10400; bid prices: 146700; bid volumes: 17750
+2023-03-08 10:14:14.353908 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:14.353917 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.353920 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:14.353923 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 84
+2023-03-08 10:14:14.353965 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:14:14.354058 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:14.354073 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.354100 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:14.354104 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.354168 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:14.354173 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:14.354176 [INFO   ] [AUTO] order 27 filled for 10 lots at $147000 cents
+2023-03-08 10:14:14.354199 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.354203 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:14.354206 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 10
+2023-03-08 10:14:14.354210 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:14.354213 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:14:14.354215 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.354218 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.354286 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:14.354290 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:14.354293 [INFO   ] [AUTO] hedge order 29 filled for 10 lots at $147000 average price in cents
+2023-03-08 10:14:14.677799 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.677822 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:14.677827 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 2000
+2023-03-08 10:14:14.677874 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:14.677883 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.677886 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:14.677889 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 74
+2023-03-08 10:14:14.677929 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:14.679837 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:14.679855 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.680057 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:14.680064 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:14.680067 [INFO   ] [AUTO] order 30 filled for 10 lots at $147000 cents
+2023-03-08 10:14:14.680099 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.680104 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:14.680106 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 10
+2023-03-08 10:14:14.680110 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:14.680113 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:14:14.680115 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.680118 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.680167 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:14.680173 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:14.680176 [INFO   ] [AUTO] hedge order 32 filled for 10 lots at $146900 average price in cents
+2023-03-08 10:14:14.733340 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.733360 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:14.733365 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146800; bid volumes: 10
+2023-03-08 10:14:14.864406 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.864426 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:14.864431 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 12400; bid prices: 146600; bid volumes: 2000
+2023-03-08 10:14:14.864467 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:14.864480 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.864484 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:14.864487 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 64
+2023-03-08 10:14:14.864524 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:14.865021 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:14.865028 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.865165 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:14.865170 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:14.865173 [INFO   ] [AUTO] order 33 filled for 10 lots at $147000 cents
+2023-03-08 10:14:14.865197 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:14.865200 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:14.865203 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 10
+2023-03-08 10:14:14.865207 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:14.865209 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:14:14.865211 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.865214 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:14.865267 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:14.865273 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:14.865276 [INFO   ] [AUTO] hedge order 35 filled for 10 lots at $146700 average price in cents
+2023-03-08 10:14:15.172471 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.172490 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:15.172496 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146700; ask volumes: 1010; bid prices: 146600; bid volumes: 14750
+2023-03-08 10:14:15.172529 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:15.172539 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.172542 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:15.172545 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 68
+2023-03-08 10:14:15.172590 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:15.172810 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:15.172833 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.172916 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:15.172921 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:15.172924 [INFO   ] [AUTO] order 36 filled for 10 lots at $147000 cents
+2023-03-08 10:14:15.172963 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:15.172967 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:15.172970 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.172998 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.173003 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:15.173006 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 10
+2023-03-08 10:14:15.173010 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:15.173013 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.173047 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:15.173051 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:15.173054 [INFO   ] [AUTO] hedge order 38 filled for 10 lots at $146700 average price in cents
+2023-03-08 10:14:15.242546 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.242564 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:15.242570 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147200; ask volumes: 44; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:15.281303 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.281322 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:15.281327 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146700; ask volumes: 1010; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:15.391273 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.391294 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:15.391299 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 12150; bid prices: 146700; bid volumes: 3000
+2023-03-08 10:14:15.391354 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:15.391368 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.391370 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:15.391373 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 9976; bid prices: 147000; bid volumes: 58
+2023-03-08 10:14:15.391391 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:15.391618 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:15.391623 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.391716 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:14:15.391723 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.391726 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.582712 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.582732 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:15.582737 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146900; ask volumes: 750; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:15.612763 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.612780 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:15.612785 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 146900; bid volumes: 11000
+2023-03-08 10:14:15.612822 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:15.612832 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.612834 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:15.612837 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 58
+2023-03-08 10:14:15.612863 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:14:15.613229 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:15.613237 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.613416 [DEBUG  ] [CON] 'Exec' received 38 bytes
+2023-03-08 10:14:15.613421 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.613424 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.613444 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:15.613448 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.926971 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.926995 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:15.927000 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 14410; bid prices: 146800; bid volumes: 23760
+2023-03-08 10:14:15.927042 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:15.927052 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:15.927055 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:15.927058 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 55; bid prices: 147100; bid volumes: 10
+2023-03-08 10:14:15.927114 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:15.927312 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:15.927317 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:15.927376 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:15.927382 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:16.161331 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:16.161352 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:16.161356 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 16410; bid prices: 146800; bid volumes: 14760
+2023-03-08 10:14:16.161385 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:16.161388 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:16.161392 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 55; bid prices: 147000; bid volumes: 68
+2023-03-08 10:14:16.419906 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:16.419923 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:16.419928 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 10400; bid prices: 146800; bid volumes: 3000
+2023-03-08 10:14:16.419962 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:16.419972 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:16.419975 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:16.419977 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 55; bid prices: 147000; bid volumes: 68
+2023-03-08 10:14:16.420002 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:16.420093 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:16.420098 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:16.420133 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:16.420138 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:16.621064 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:16.621083 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:16.621089 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146800; bid volumes: 14800
+2023-03-08 10:14:16.621106 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:16.621110 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:16.621112 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147000; bid volumes: 68
+2023-03-08 10:14:16.796284 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:16.796302 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:16.796306 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 39
+2023-03-08 10:14:16.916371 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:16.916386 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:16.916390 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 12400; bid prices: 146800; bid volumes: 2000
+2023-03-08 10:14:16.916408 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:16.916412 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:16.916414 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147000; bid volumes: 29
+2023-03-08 10:14:17.160634 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.160654 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:17.160659 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 12400; bid prices: 146800; bid volumes: 2020
+2023-03-08 10:14:17.160677 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.160680 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:17.160684 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147000; bid volumes: 29
+2023-03-08 10:14:17.359414 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.359431 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:17.359436 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 1000; bid prices: 146700; bid volumes: 5020
+2023-03-08 10:14:17.359477 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:17.359487 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.359490 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:17.359493 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 10; bid prices: 147000; bid volumes: 29
+2023-03-08 10:14:17.359518 [DEBUG  ] [CON] 'Exec' sent 41 bytes
+2023-03-08 10:14:17.359682 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:17.359690 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.359736 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:17.359742 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.359766 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:17.359781 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.359807 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:17.359810 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.543718 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:17.543739 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:17.543745 [INFO   ] [AUTO] order 46 filled for 10 lots at $146900 cents
+2023-03-08 10:14:17.543778 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:17.543786 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:17.543788 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.543813 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.543818 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:17.543821 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 19
+2023-03-08 10:14:17.543909 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:17.543914 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:17.543917 [INFO   ] [AUTO] hedge order 47 filled for 10 lots at $146700 average price in cents
+2023-03-08 10:14:17.623589 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.623609 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:17.623618 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 12400; bid prices: 146700; bid volumes: 2020
+2023-03-08 10:14:17.623660 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:17.623670 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.623672 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:17.623675 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 100; bid prices: 146200; bid volumes: 10000
+2023-03-08 10:14:17.623705 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:17.623823 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:17.623828 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.623859 [DEBUG  ] [CON] 'Exec' received 34 bytes
+2023-03-08 10:14:17.623863 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.623865 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:17.623868 [INFO   ] [AUTO] order 49 filled for 10 lots at $146400 cents
+2023-03-08 10:14:17.623892 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.623896 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:17.623899 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:17.623903 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:17.623905 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:17.623907 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.623956 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:17.623962 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:17.623965 [INFO   ] [AUTO] hedge order 50 filled for 10 lots at $146700 average price in cents
+2023-03-08 10:14:17.900191 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.900214 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:17.900225 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 2400; bid prices: 146700; bid volumes: 3020
+2023-03-08 10:14:17.900257 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:17.900266 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.900268 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:17.900271 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 90; bid prices: 146200; bid volumes: 10000
+2023-03-08 10:14:17.900294 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:17.900510 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:17.900525 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.900551 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:17.900555 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.900574 [DEBUG  ] [CON] 'Exec' received 34 bytes
+2023-03-08 10:14:17.900578 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:17.900580 [INFO   ] [AUTO] order 52 filled for 10 lots at $146400 cents
+2023-03-08 10:14:17.900589 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:17.900608 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:17.900611 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:17.900614 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:17.900618 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:17.900702 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:17.900707 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:17.900710 [INFO   ] [AUTO] hedge order 53 filled for 10 lots at $146700 average price in cents
+2023-03-08 10:14:18.166499 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.166520 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:18.166525 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 1010; bid prices: 146600; bid volumes: 13810
+2023-03-08 10:14:18.166588 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:18.166599 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.166602 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:18.166605 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 80; bid prices: 146100; bid volumes: 10000
+2023-03-08 10:14:18.166629 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:18.166937 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:18.166945 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:18.166991 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:18.166998 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:18.167056 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:18.167061 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:18.167064 [INFO   ] [AUTO] order 55 filled for 10 lots at $146400 cents
+2023-03-08 10:14:18.167108 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.167112 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:18.167116 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:18.167120 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:18.167123 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:18.167126 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:18.167151 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:18.167155 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:18.167157 [INFO   ] [AUTO] hedge order 56 filled for 10 lots at $146600 average price in cents
+2023-03-08 10:14:18.372862 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.372883 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:18.372888 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146700; ask volumes: 1000; bid prices: 146500; bid volumes: 13790
+2023-03-08 10:14:18.372938 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:18.372948 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.372950 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:18.372953 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146100; bid volumes: 10000
+2023-03-08 10:14:18.372976 [DEBUG  ] [CON] 'Exec' sent 34 bytes
+2023-03-08 10:14:18.373021 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:18.373035 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:18.373100 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:18.373106 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:18.373152 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.373157 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:18.373160 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:18.373169 [DEBUG  ] [CON] 'Exec' received 34 bytes
+2023-03-08 10:14:18.373172 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:18.373174 [INFO   ] [AUTO] order 58 filled for 10 lots at $146400 cents
+2023-03-08 10:14:18.373182 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:18.373208 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:18.373259 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:18.373264 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:18.373267 [INFO   ] [AUTO] hedge order 59 filled for 10 lots at $146500 average price in cents
+2023-03-08 10:14:18.659125 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.659144 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:18.659149 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 11400; bid prices: 146600; bid volumes: 8020
+2023-03-08 10:14:18.659182 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:18.659190 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.659193 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:18.659196 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 60; bid prices: 146000; bid volumes: 10000
+2023-03-08 10:14:18.659415 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:18.659421 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:18.659425 [INFO   ] [AUTO] order 60 filled for 10 lots at $146400 cents
+2023-03-08 10:14:18.659485 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.659490 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:18.659493 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:18.659497 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:18.659499 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:18.659502 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:18.659528 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:18.659532 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:18.659534 [INFO   ] [AUTO] hedge order 61 filled for 10 lots at $146600 average price in cents
+2023-03-08 10:14:18.921965 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.921985 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:18.921991 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 2000; bid prices: 146700; bid volumes: 13810
+2023-03-08 10:14:18.922037 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:18.922042 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.922044 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:18.922047 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 50; bid prices: 146200; bid volumes: 10000
+2023-03-08 10:14:18.922447 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:18.922454 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:18.922458 [INFO   ] [AUTO] order 62 filled for 10 lots at $146400 cents
+2023-03-08 10:14:18.922484 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:18.922577 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:18.922581 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:18.922584 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:18.922602 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:18.922609 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:18.922650 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:18.922654 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:18.922656 [INFO   ] [AUTO] hedge order 63 filled for 10 lots at $146800 average price in cents
+2023-03-08 10:14:19.145714 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.145732 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:19.145737 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146900; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:19.162987 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.162995 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:19.162999 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146900; bid volumes: 1390
+2023-03-08 10:14:19.163030 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:19.163033 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.163035 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:19.163038 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 40; bid prices: 146200; bid volumes: 10000
+2023-03-08 10:14:19.163218 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:19.163225 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:19.163229 [INFO   ] [AUTO] order 64 filled for 10 lots at $146400 cents
+2023-03-08 10:14:19.163262 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.163266 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:19.163269 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:19.163273 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:19.163279 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:19.163283 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:19.163308 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:19.163316 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:19.163319 [INFO   ] [AUTO] hedge order 65 filled for 10 lots at $146900 average price in cents
+2023-03-08 10:14:19.280361 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.280386 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:19.280391 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146200; bid volumes: 12
+2023-03-08 10:14:19.337399 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.337416 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:19.337422 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147000; ask volumes: 710; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:19.337443 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.337451 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:19.337455 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 30; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:19.427760 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:19.427779 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:19.427785 [INFO   ] [AUTO] order 57 filled for 10 lots at $146600 cents
+2023-03-08 10:14:19.427814 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:19.427821 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:19.427823 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:19.427845 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.427848 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:19.427852 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146600; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:19.427892 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:19.427900 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:19.427903 [INFO   ] [AUTO] hedge order 66 filled for 10 lots at $147200 average price in cents
+2023-03-08 10:14:19.428529 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.428533 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:19.428536 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 12430; bid prices: 147000; bid volumes: 1020
+2023-03-08 10:14:19.428560 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:19.428571 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.428573 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:19.428576 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 22; bid prices: 146500; bid volumes: 9970
+2023-03-08 10:14:19.428597 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:19.428662 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:19.428668 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:19.428695 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:19.428699 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:19.655681 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.655702 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:19.655707 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 3030; bid prices: 147000; bid volumes: 13780
+2023-03-08 10:14:19.655739 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.655743 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:19.655746 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 10
+2023-03-08 10:14:19.881484 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.881504 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:19.881509 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 2430; bid prices: 147000; bid volumes: 7780
+2023-03-08 10:14:19.881543 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:19.881550 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:19.881554 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 162
+2023-03-08 10:14:20.099581 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:20.099600 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:20.099606 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1030; bid prices: 147100; bid volumes: 13020
+2023-03-08 10:14:20.099644 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:20.099659 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:20.099663 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:20.099666 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146600; bid volumes: 162
+2023-03-08 10:14:20.099693 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:20.099720 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:20.099736 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:20.099775 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:20.099780 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:20.242339 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:20.242358 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:20.242363 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147200; ask volumes: 1030; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:20.399737 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:20.399758 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:20.399762 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 14000; bid prices: 147000; bid volumes: 2020
+2023-03-08 10:14:20.399802 [DEBUG  ] [CON] 'Exec' sent 7 bytes
+2023-03-08 10:14:20.399816 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:20.399821 [DEBUG  ] [CON] 'Info' received message with type=10 and size=88
+2023-03-08 10:14:20.399825 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 146700; bid volumes: 10010
+2023-03-08 10:14:20.399842 [DEBUG  ] [CON] 'Exec' sent 17 bytes
+2023-03-08 10:14:20.399919 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:20.399924 [DEBUG  ] [CON] 'Exec' received message with type=8 and size=15
+2023-03-08 10:14:20.399928 [INFO   ] [AUTO] order 67 filled for 10 lots at $146800 cents
+2023-03-08 10:14:20.399957 [DEBUG  ] [CON] 'Exec' sent 16 bytes
+2023-03-08 10:14:20.399965 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:20.399968 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:20.400269 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:20.400276 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:20.400384 [DEBUG  ] [CON] 'Exec' received 19 bytes
+2023-03-08 10:14:20.400389 [DEBUG  ] [CON] 'Exec' received message with type=9 and size=19
+2023-03-08 10:14:20.400407 [DEBUG  ] [CON] 'Info' received 88 bytes
+2023-03-08 10:14:20.400411 [DEBUG  ] [CON] 'Info' received message with type=11 and size=88
+2023-03-08 10:14:20.400414 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146800; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-08 10:14:20.400461 [DEBUG  ] [CON] 'Exec' received 15 bytes
+2023-03-08 10:14:20.400466 [DEBUG  ] [CON] 'Exec' received message with type=4 and size=15
+2023-03-08 10:14:20.400468 [INFO   ] [AUTO] hedge order 71 filled for 10 lots at $147100 average price in cents
+2023-03-08 10:14:20.629332 [INFO   ] [CON] 'Exec' remote disconnect
+2023-03-08 10:14:20.629356 [INFO   ] [AUTO] execution connection lost
+2023-03-08 10:14:20.629365 [INFO   ] [CON] 'Info' closing
+2023-03-08 10:14:20.629378 [INFO   ] [CON] 'Exec' closing
