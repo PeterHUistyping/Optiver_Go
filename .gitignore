@@ -3,3 +3,5 @@ cppready_trader_go/build/
 cppready_trader_go/tradergo_venv/
 pyready_trader_go/tradergo_venv/
 CrazyThursday_10086/
+pyready_trader_go/__pycache__/
+pyready_trader_go/ready_trader_go/__pycache__/
