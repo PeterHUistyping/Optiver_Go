@@ -35,6 +35,14 @@ constexpr int MAX_ASK_NEAREST_TICK = MAXIMUM_ASK / TICK_SIZE_IN_CENTS * TICK_SIZ
 
 AutoTrader::AutoTrader(boost::asio::io_context& context) : BaseAutoTrader(context)
 {
+    // for(int i=0;i<4000;i++){
+    //     price_etf_ask[i][0]=-1;
+    //     price_etf_bid[i][0]=-1;
+    //     price_future_ask[i][0]=-1;
+    //     price_future_bid[i][0]=-1;
+    // }
+   
+   
 }
 
 void AutoTrader::DisconnectHandler()
@@ -68,43 +76,114 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
                                          const std::array<unsigned long, TOP_LEVEL_COUNT>& bidPrices,
                                          const std::array<unsigned long, TOP_LEVEL_COUNT>& bidVolumes)
 {
-    RLOG(LG_AT, LogLevel::LL_INFO) << "order book received for " << instrument << " instrument"
+    RLOG(LG_AT, LogLevel::LL_INFO) << "order book received for " << instrument << " instrument (future is 0 else etf)"
                                    << ": ask prices: " << askPrices[0]
                                    << "; ask volumes: " << askVolumes[0]
                                    << "; bid prices: " << bidPrices[0]
                                    << "; bid volumes: " << bidVolumes[0];
-
+    unsigned long priceAdjustment = - (mPosition / LOT_SIZE) * TICK_SIZE_IN_CENTS;
+    unsigned long min_ask_Prices_temp = *std::min_element(askPrices.begin(), askPrices.end());
+    unsigned long max_bid_Prices_temp = *std::max_element(bidPrices.begin(), bidPrices.end());
+    unsigned long newAskPrice = (min_ask_Prices_temp != 0) ? min_ask_Prices_temp + priceAdjustment : 0;
+    unsigned long newBidPrice = (max_bid_Prices_temp != 0) ? max_bid_Prices_temp + priceAdjustment : 0;
+    RLOG(LG_AT, LogLevel::LL_INFO) <<newBidPrice <<"Debug:max_ask_Prices_temp " << max_bid_Prices_temp;
+    
     if (instrument == Instrument::FUTURE)
     {
-        unsigned long priceAdjustment = - (mPosition / LOT_SIZE) * TICK_SIZE_IN_CENTS;
-        unsigned long newAskPrice = (askPrices[0] != 0) ? askPrices[0] + priceAdjustment : 0;
-        unsigned long newBidPrice = (bidPrices[0] != 0) ? bidPrices[0] + priceAdjustment : 0;
-
-        if (mAskId != 0 && newAskPrice != 0 && newAskPrice != mAskPrice)
-        {
-            SendCancelOrder(mAskId);
-            mAskId = 0;
+        price_future_ask=askPrices;
+        price_future_bid=bidPrices;
+        update_future[sequenceNumber]=true;
+        future_last=sequenceNumber;
+        RLOG(LG_AT, LogLevel::LL_INFO)<< sequenceNumber<<update_future[sequenceNumber]<<update_etf[sequenceNumber] ;
+        if(etf_last!=-1){ // not empty
+            RLOG(LG_AT, LogLevel::LL_INFO) << "1-2";
+            if (mAskId != 0 && newAskPrice != 0 && newAskPrice != mAskPrice)
+            {
+                SendCancelOrder(mAskId);
+                mAskId = 0;
+            }
+            if (mBidId != 0 && newBidPrice != 0 && newBidPrice != mBidPrice)
+            {
+                SendCancelOrder(mBidId);
+                mBidId = 0;
+            }
+            unsigned long min_etf_ask=*std::min_element(price_etf_ask.begin(),price_etf_ask.end());
+            unsigned long max_future_bid=*std::max_element(price_future_bid.begin(),price_future_bid.end());
+            // for (int j = 0; j < price_etf_ask.size(); j++ )
+            // {   
+            //     RLOG(LG_AT, LogLevel::LL_INFO) << "Debug: price_etf_ask "<<j<<" "<<price_etf_ask[future_last][j];
+            // }
+          
+            RLOG(LG_AT, LogLevel::LL_INFO) << "Debug: min_etf_ask  "<<min_etf_ask;
+            // Buy ETF sell Future when min(ask prices) of ETF < max(bid price) of future
+            if (mBidId == 0 && newBidPrice != 0 && mPosition < POSITION_LIMIT && min_etf_ask<max_future_bid)        
+            {
+                mBidId = mNextMessageId++;
+                mBidPrice = newBidPrice;
+                SendInsertOrder(mBidId, Side::BUY, newBidPrice, LOT_SIZE, Lifespan::FILL_AND_KILL);
+                mBids.emplace(mBidId);
+                RLOG(LG_AT, LogLevel::LL_INFO) << "send1 ";
+            }
+            unsigned long min_future_ask= *std::min_element(price_future_ask.begin(),price_future_ask.end());
+            unsigned long max_etf_bid=*std::max_element(price_etf_bid.begin(),price_etf_bid.end());
+            if (mAskId == 0 && newAskPrice != 0 && mPosition > -POSITION_LIMIT && min_future_ask <max_etf_bid)
+            {
+                mAskId = mNextMessageId++;
+                mAskPrice = newAskPrice;
+                SendInsertOrder(mAskId, Side::SELL, newAskPrice, LOT_SIZE, Lifespan::FILL_AND_KILL);
+                mAsks.emplace(mAskId);
+                RLOG(LG_AT, LogLevel::LL_INFO) << "send2 ";
+            }
         }
-        if (mBidId != 0 && newBidPrice != 0 && newBidPrice != mBidPrice)
-        {
-            SendCancelOrder(mBidId);
-            mBidId = 0;
+        
+    }
+    if (instrument == Instrument::ETF)
+    {
+        // std::copy_n(askPrices.begin(), askPrices.size(), price_etf_ask[sequenceNumber].begin());
+        // std::copy_n(bidPrices.begin(), bidPrices.size(), price_etf_bid[sequenceNumber].begin());
+        price_etf_ask=askPrices;
+        price_etf_bid=bidPrices;
+        
+        update_etf[sequenceNumber]=true;
+        etf_last=sequenceNumber;
+        // RLOG(LG_AT, LogLevel::LL_INFO)<< sequenceNumber<<update_future[sequenceNumber]<<update_etf[sequenceNumber] ;
+        if(future_last!=-1){ // not empty
+            if (mAskId != 0 && newAskPrice != 0 && newAskPrice != mAskPrice)
+            {
+                SendCancelOrder(mAskId);
+                mAskId = 0;
+            }
+            if (mBidId != 0 && newBidPrice != 0 && newBidPrice != mBidPrice)
+            {
+                SendCancelOrder(mBidId);
+                mBidId = 0;
+            }
+            unsigned long min_etf_ask=*std::min_element(price_etf_ask.begin(),price_etf_ask.end());
+            unsigned long max_future_bid=*std::max_element(price_future_bid.begin(),price_future_bid.end());
+            // Buy ETF sell Future when min(ask prices) of ETF < max(bid price) of future
+            RLOG(LG_AT, LogLevel::LL_INFO)<<(mBidId == 0)<<(newBidPrice != 0)<<(mPosition < POSITION_LIMIT)<<(min_etf_ask<max_future_bid);
+            if (mBidId == 0 && newBidPrice != 0 && mPosition < POSITION_LIMIT && min_etf_ask<max_future_bid)
+            {
+                mBidId = mNextMessageId++;
+                mBidPrice = newBidPrice;
+                SendInsertOrder(mBidId, Side::BUY, newBidPrice, LOT_SIZE, Lifespan::FILL_AND_KILL);
+                mBids.emplace(mBidId);
+                RLOG(LG_AT, LogLevel::LL_INFO)<<newBidPrice<< std::endl<<sequenceNumber;
+                RLOG(LG_AT, LogLevel::LL_INFO) << "send3 ";
+            }
+            unsigned long min_future_ask= *std::min_element(price_future_ask.begin(),price_future_ask.end());
+            unsigned long max_etf_bid=*std::max_element(price_etf_bid.begin(),price_etf_bid.end());
+            // RLOG(LG_AT, LogLevel::LL_INFO)<<"Data:"<<sequenceNumber<<std::endl<<newBidPrice<<std::endl<<min_etf_ask<<std::endl<<max_future_bid<<std::endl<<min_future_ask<<std::endl<<max_etf_bid;
+            if (mAskId == 0 && newAskPrice != 0 && mPosition > -POSITION_LIMIT && min_future_ask <max_etf_bid)
+            {
+                mAskId = mNextMessageId++;
+                mAskPrice = newAskPrice;
+                SendInsertOrder(mAskId, Side::SELL, newAskPrice, LOT_SIZE, Lifespan::FILL_AND_KILL);
+                mAsks.emplace(mAskId);
+                RLOG(LG_AT, LogLevel::LL_INFO) << "send4 ";
+            }
         }
-
-        if (mAskId == 0 && newAskPrice != 0 && mPosition > -POSITION_LIMIT)
-        {
-            mAskId = mNextMessageId++;
-            mAskPrice = newAskPrice;
-            SendInsertOrder(mAskId, Side::SELL, newAskPrice, LOT_SIZE, Lifespan::GOOD_FOR_DAY);
-            mAsks.emplace(mAskId);
-        }
-        if (mBidId == 0 && newBidPrice != 0 && mPosition < POSITION_LIMIT)
-        {
-            mBidId = mNextMessageId++;
-            mBidPrice = newBidPrice;
-            SendInsertOrder(mBidId, Side::BUY, newBidPrice, LOT_SIZE, Lifespan::GOOD_FOR_DAY);
-            mBids.emplace(mBidId);
-        }
+        
     }
 }
 

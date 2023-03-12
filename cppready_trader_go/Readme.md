@@ -1,5 +1,10 @@
 # Ready Trader Go
 
+For C++,
+```
+bash ./initiate.sh
+```
+
 ## IT'S READY TRADER GO TIME
 
 Welcome to the ultimate team student trading competition. Competitors get to
@@ -34,48 +39,11 @@ To build an autotrader you'll need the [CMake](https://cmake.org) family
 of tools version 3.17 or higher. Ready Trader Go requires the free
 [Boost](https://www.boost.org) C++ libraries, version 1.74.0 or above. 
 
-To compile an autotrader:
-
-```shell
-cmake -DCMAKE_BUILD_TYPE=Debug -B build
-cmake --build build --config Debug
+**To compile and build it, just run on mac** 
+```
+bash ./initiate.sh
 ```
 
-Replace "Debug" with "Release" in the above to build with CMake's
-'Release' build configuration. For more information, see the
-[CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html).
-
-**Note:** Your autotrader will be built using the 'Release' build configuration
-for the competition.
-
-### Running a Ready Trader Go match
-
-Before you can run an autotrader there must be a corresponding JSON configuration
-file in the same directory as your autotrader executable. CMake will place
-the executable in a directory called 'build' so you'll need to copy it from
-there to your ready-trader-go folder. On Windows, you can use:
-
-```cmd
-copy build\autotrader.exe .
-```
-
-On macOS and Linux, you can use:
-
-```shell
-cp build/autotrader .
-```
-
-To run a Ready Trader Go match with one or more autotraders, simply run:
-
-```shell
-python3 rtg.py run [AUTOTRADER FILENAME [AUTOTRADER FILENAME]]
-```
-
-For example:
-
-```shell
-python3 rtg.py run autotrader
-```
 
 ## What's in this archive?
 
@@ -97,18 +65,20 @@ The archive contains:
 
 Each autotrader is configured with a JSON file like this:
 
-    {
-      "Execution": {
-        "Host": "127.0.0.1",
-        "Port": 12345
-      },
-      "Information": {
-        "Type": "mmap",
-        "Name": "info.dat"
-      },
-      "TeamName": "TraderOne",
-      "Secret": "secret"
-    }
+```json
+{
+  "Execution": {
+    "Host": "127.0.0.1",
+    "Port": 12345
+  },
+  "Information": {
+    "Type": "mmap",
+    "Name": "info.dat"
+  },
+  "TeamName": "TraderOne",
+  "Secret": "secret"
+}
+```
 
 The elements of the autotrader configuration are:
 
@@ -125,45 +95,47 @@ broadcast by the exchange simulator
 The market simulator is configured with a JSON file called "exchange.json".
 Here is an example:
 
-    {
-      "Engine": {
-        "MarketDataFile": "data/market_data.csv",
-        "MarketEventInterval": 0.05,
-        "MarketOpenDelay": 5.0,
-        "MatchEventsFile": "match_events.csv",
-        "ScoreBoardFile": "score_board.csv",
-        "Speed": 1.0,
-        "TickInterval": 0.25
-      },
-      "Execution": {
-        "host": "127.0.0.1",
-        "Port": 12345
-      },
-      "Fees": {
-        "Maker": -0.0001,
-        "Taker": 0.0002
-      },
-      "Information": {
-        "Type": "mmap",
-        "Name": "info.dat"
-      },
-      "Instrument": {
-        "EtfClamp": 0.002,
-        "TickSize": 1.00
-      },
-      "Limits": {
-        "ActiveOrderCountLimit": 10,
-        "ActiveVolumeLimit": 200,
-        "MessageFrequencyInterval": 1.0,
-        "MessageFrequencyLimit": 50,
-        "PositionLimit": 100
-      },
-      "Traders": {
-        "TraderOne": "secret",
-        "ExampleOne": "qwerty",
-        "ExampleTwo": "12345"
-      }
-    }
+```json
+{
+  "Engine": {
+    "MarketDataFile": "data/market_data.csv",
+    "MarketEventInterval": 0.05,
+    "MarketOpenDelay": 5.0,
+    "MatchEventsFile": "match_events.csv",
+    "ScoreBoardFile": "score_board.csv",
+    "Speed": 1.0,
+    "TickInterval": 0.25
+  },
+  "Execution": {
+    "host": "127.0.0.1",
+    "Port": 12345
+  },
+  "Fees": {
+    "Maker": -0.0001,
+    "Taker": 0.0002
+  },
+  "Information": {
+    "Type": "mmap",
+    "Name": "info.dat"
+  },
+  "Instrument": {
+    "EtfClamp": 0.002,
+    "TickSize": 1.00
+  },
+  "Limits": {
+    "ActiveOrderCountLimit": 10,
+    "ActiveVolumeLimit": 200,
+    "MessageFrequencyInterval": 1.0,
+    "MessageFrequencyLimit": 50,
+    "PositionLimit": 100
+  },
+  "Traders": {
+    "TraderOne": "secret",
+    "ExampleOne": "qwerty",
+    "ExampleTwo": "12345"
+  }
+}
+```
 
 The elements of the autotrader configuration are:
 
@@ -273,3 +245,68 @@ autotrader).
 You may replace your autotrader with a new one at any time. When each
 tournament starts we'll use the autotrader in your GIT repository at the
 cut-off time for that tournament.
+
+# Reference 
+
+To compile an autotrader:
+
+```shell
+cmake -DCMAKE_BUILD_TYPE=Debug -B build
+cmake --build build --config Debug
+```
+
+Replace "Debug" with "Release" in the above to build with CMake's
+'Release' build configuration. For more information, see the
+[CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html).
+
+**Note:** Your autotrader will be built using the 'Release' build configuration
+for the competition.
+
+### Running a Ready Trader Go match
+
+Before you can run an autotrader there must be a corresponding JSON configuration
+file in the same directory as your autotrader executable. CMake will place
+the executable in a directory called 'build' so you'll need to copy it from
+there to your ready-trader-go folder. On Windows, you can use:
+
+```cmd
+copy build\autotrader.exe .
+```
+
+On macOS and Linux, you can use:
+
+```shell
+cp build/autotrader .
+```
+
+To run a Ready Trader Go match with one or more autotraders, simply run:
+
+```shell
+python3 rtg.py run [AUTOTRADER FILENAME [AUTOTRADER FILENAME]]
+```
+
+For example:
+
+```shell
+python3 rtg.py run autotrader
+```
+# Useful command
+
+For C++,
+```
+bash ./initiate.sh
+```
+
+
+```powershell
+
+python3 -m venv tradergo_venv
+
+pip3 install PySide6
+
+pip3 install numpy
+
+source tradergo_venv/bin/activate
+
+python3 rtg.py run autotrader_pairtrading.py
+```
