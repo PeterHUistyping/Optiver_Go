@@ -111,3 +111,59 @@ ConnectionResetError: [Errno 54] Connection reset by peer
 2023-03-12 00:46:12,652 [INFO   ] [MATCH_EVENTS] writer thread complete after processing 467703 match events
 2023-03-12 00:46:12,652 [INFO   ] [SCORE_BOARD] writer thread complete after processing 3601 score records
 2023-03-12 00:46:12,652 [INFO   ] [APP] closing event loop
+2023-03-14 12:04:30,260 [INFO   ] [APP] exchange started with arguments={rtg.py, run, autotrader}
+2023-03-14 12:04:30,261 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data1.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"TraderOne":"secret","TraderTwo":"secret","CrazyThursday_treatassame":"fengkuangxingqisi"}}
+2023-03-14 12:04:30,261 [INFO   ] [CONTROLLER] starting the match
+2023-03-14 12:04:30,262 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-14 12:04:30,262 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-14 12:04:30,268 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-14 12:04:30,269 [INFO   ] [INFORMATION] information channel established
+2023-03-14 12:04:31,299 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:50445
+2023-03-14 12:04:31,300 [INFO   ] [EXECUTION] fd=24 'TraderOne' is ready!
+2023-03-14 12:04:32,610 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:50446
+2023-03-14 12:04:35,276 [INFO   ] [CONTROLLER] market open
+2023-03-14 12:04:36,533 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-14 12:04:36,533 [INFO   ] [APP] closing event loop
+2023-03-14 12:06:28,904 [INFO   ] [APP] exchange started with arguments={rtg.py, run, autotrader}
+2023-03-14 12:06:28,904 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data1.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"TraderOne":"secret","TraderTwo":"secret","CrazyThursday_treatassame":"fengkuangxingqisi"}}
+2023-03-14 12:06:28,905 [INFO   ] [CONTROLLER] starting the match
+2023-03-14 12:06:28,905 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-14 12:06:28,905 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-14 12:06:28,914 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-14 12:06:28,914 [INFO   ] [INFORMATION] information channel established
+2023-03-14 12:06:29,471 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:50467
+2023-03-14 12:06:29,471 [INFO   ] [EXECUTION] fd=24 'TraderOne' is ready!
+2023-03-14 12:06:30,596 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:50468
+2023-03-14 12:06:32,642 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-14 12:06:32,642 [INFO   ] [APP] closing event loop
+2023-03-14 12:06:32,659 [ERROR  ] [asyncio] Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Controller.start() running at /Users/peterhu/Documents/Coding/GitHub/Optiver_Go/cppready_trader_go/ready_trader_go/controller.py:116> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2023-03-14 12:08:58,060 [INFO   ] [APP] exchange started with arguments={rtg.py, run, autotrader}
+2023-03-14 12:08:58,060 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data1.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"TraderOne":"secret","TraderTwo":"secret","CrazyThursday_treatassame":"fengkuangxingqisi"}}
+2023-03-14 12:08:58,061 [INFO   ] [CONTROLLER] starting the match
+2023-03-14 12:08:58,061 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-14 12:08:58,061 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-14 12:08:58,067 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-14 12:08:58,068 [INFO   ] [INFORMATION] information channel established
+2023-03-14 12:08:58,372 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:50528
+2023-03-14 12:08:58,372 [INFO   ] [EXECUTION] fd=24 'TraderOne' is ready!
+2023-03-14 12:08:59,674 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:50530
+2023-03-14 12:09:02,033 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-14 12:09:02,033 [INFO   ] [APP] closing event loop
+2023-03-14 12:09:02,049 [ERROR  ] [asyncio] Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Controller.start() running at /Users/peterhu/Documents/Coding/GitHub/Optiver_Go/cppready_trader_go/ready_trader_go/controller.py:116> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2023-03-14 12:16:44,326 [INFO   ] [APP] exchange started with arguments={rtg.py, run, autotrader}
+2023-03-14 12:16:44,327 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data1.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"TraderOne":"secret","TraderTwo":"secret","CrazyThursday_treatassame":"fengkuangxingqisi"}}
+2023-03-14 12:16:44,327 [INFO   ] [CONTROLLER] starting the match
+2023-03-14 12:16:44,327 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-14 12:16:44,328 [ERROR  ] [asyncio] Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<Controller.start() done, defined at /Users/peterhu/Documents/Coding/GitHub/Optiver_Go/cppready_trader_go/ready_trader_go/controller.py:102> exception=OSError(48, "error while attempting to bind on address ('127.0.0.1', 12345): address already in use")>
+Traceback (most recent call last):
+  File "/Users/peterhu/Documents/Coding/GitHub/Optiver_Go/cppready_trader_go/ready_trader_go/controller.py", line 106, in start
+    await self.__execution_server.start()
+  File "/Users/peterhu/Documents/Coding/GitHub/Optiver_Go/cppready_trader_go/ready_trader_go/execution.py", line 185, in start
+    self.__server = await asyncio.get_running_loop().create_server(self.__on_new_connection, self.host, self.port)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 1525, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 48] error while attempting to bind on address ('127.0.0.1', 12345): address already in use
