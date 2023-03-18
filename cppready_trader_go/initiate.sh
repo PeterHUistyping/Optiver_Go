@@ -1,5 +1,5 @@
 rm -rf build
-echo remove the cache, done!
+echo ----remove the cache, done!----
 cmake -DCMAKE_BUILD_TYPE=Debug -B build
 cmake --build build --config Debug
 cp build/autotrader .

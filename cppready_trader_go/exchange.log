@@ -167,3 +167,16 @@ Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 1525, in create_server
     raise OSError(err.errno, 'error while attempting '
 OSError: [Errno 48] error while attempting to bind on address ('127.0.0.1', 12345): address already in use
+2023-03-18 00:39:14,664 [INFO   ] [APP] exchange started with arguments={rtg.py, run, autotrader}
+2023-03-18 00:39:14,665 [INFO   ] [APP] configuration={"Engine":{"MarketDataFile":"data/market_data1.csv","MarketEventInterval":0.05,"MarketOpenDelay":5.0,"MatchEventsFile":"match_events.csv","ScoreBoardFile":"score_board.csv","Speed":1.0,"TickInterval":0.25},"Execution":{"Host":"127.0.0.1","Port":12345},"Fees":{"Maker":-0.0001,"Taker":0.0002},"Hud":{"Host":"127.0.0.1","Port":12347},"Information":{"Type":"mmap","Name":"info.dat"},"Instrument":{"EtfClamp":0.002,"TickSize":1.0},"Limits":{"ActiveOrderCountLimit":10,"ActiveVolumeLimit":200,"MessageFrequencyInterval":1.0,"MessageFrequencyLimit":50,"PositionLimit":100},"Traders":{"TraderOne":"secret","TraderTwo":"secret","CrazyThursday_treatassame":"fengkuangxingqisi"}}
+2023-03-18 00:39:14,665 [INFO   ] [CONTROLLER] starting the match
+2023-03-18 00:39:14,665 [INFO   ] [EXECUTION] starting execution server: host=127.0.0.1 port=12345
+2023-03-18 00:39:14,665 [INFO   ] [INFORMATION] starting information publisher: type=mmap name=info.dat
+2023-03-18 00:39:14,671 [INFO   ] [HEADS_UP] starting heads-up display server: host=127.0.0.1 port=12347
+2023-03-18 00:39:14,671 [INFO   ] [INFORMATION] information channel established
+2023-03-18 00:39:15,119 [INFO   ] [CONNECTION] fd=24 connection established: peer=127.0.0.1:49383
+2023-03-18 00:39:15,119 [INFO   ] [EXECUTION] fd=24 'TraderOne' is ready!
+2023-03-18 00:39:16,322 [INFO   ] [CONNECTION] fd=25 connection established: peer=127.0.0.1:49384
+2023-03-18 00:39:19,675 [INFO   ] [CONTROLLER] market open
+2023-03-18 00:39:32,338 [INFO   ] [APP] SIGTERM signal received - shutting down...
+2023-03-18 00:39:32,338 [INFO   ] [APP] closing event loop
