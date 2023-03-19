@@ -80,13 +80,12 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
     unsigned long max_bid_Prices_temp = *std::max_element(bidPrices.begin(), bidPrices.end());
     unsigned long newAskPrice = (min_ask_Prices_temp != 0) ? min_ask_Prices_temp + priceAdjustment : 0;
     unsigned long newBidPrice = (max_bid_Prices_temp != 0) ? max_bid_Prices_temp + priceAdjustment : 0;
-    RLOG(LG_AT, LogLevel::LL_INFO) <<newBidPrice <<"Debug:max_ask_Prices_temp " << max_bid_Prices_temp;
+    // RLOG(LG_AT, LogLevel::LL_INFO) <<newBidPrice <<"Debug:max_ask_Prices_temp " << max_bid_Prices_temp;
     
     if (instrument == Instrument::FUTURE)
     {
         price_future_ask=askPrices;
         price_future_bid=bidPrices;
-        update_future[sequenceNumber]=true;
         future_last=sequenceNumber;
         // RLOG(LG_AT, LogLevel::LL_INFO)<< sequenceNumber<<update_future[sequenceNumber]<<update_etf[sequenceNumber] ;
         if(likely(etf_last!=-1)){ // not empty
@@ -105,13 +104,13 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
             unsigned long max_future_bid=*std::max_element(price_future_bid.begin(),price_future_bid.end());
           
           
-            RLOG(LG_AT, LogLevel::LL_INFO) << "Debug: min_etf_ask  "<<min_etf_ask;
+            // RLOG(LG_AT, LogLevel::LL_INFO) << "Debug: min_etf_ask  "<<min_etf_ask;
             // Buy ETF sell Future when min(ask prices) of ETF < max(bid price) of future
             if (mBidId == 0 && newBidPrice != 0 && mPosition < POSITION_LIMIT && min_etf_ask<max_future_bid)        
             {
                 mBidId = mNextMessageId++;
                 mBidPrice = newBidPrice;
-                SendInsertOrder(mBidId, Side::BUY, newBidPrice, LOT_SIZE, Lifespan::FILL_AND_KILL);
+                SendInsertOrder(mBidId, Side::BUY, newBidPrice, LOT_SIZE, Lifespan::GOOD_FOR_DAY);
                 mBids.emplace(mBidId);
                 RLOG(LG_AT, LogLevel::LL_INFO) << "send1 ";
             }
@@ -121,7 +120,7 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
             {
                 mAskId = mNextMessageId++;
                 mAskPrice = newAskPrice;
-                SendInsertOrder(mAskId, Side::SELL, newAskPrice, LOT_SIZE, Lifespan::FILL_AND_KILL);
+                SendInsertOrder(mAskId, Side::SELL, newAskPrice, LOT_SIZE, Lifespan::GOOD_FOR_DAY);
                 mAsks.emplace(mAskId);
                 RLOG(LG_AT, LogLevel::LL_INFO) << "send2 ";
             }
@@ -134,7 +133,6 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
         price_etf_bid=bidPrices;
          // std::copy_n(askPrices.begin(), askPrices.size(), price_etf_ask[sequenceNumber].begin());
         // std::copy_n(bidPrices.begin(), bidPrices.size(), price_etf_bid[sequenceNumber].begin());
-        update_etf[sequenceNumber]=true;
         etf_last=sequenceNumber;
         // RLOG(LG_AT, LogLevel::LL_INFO)<< sequenceNumber<<update_future[sequenceNumber]<<update_etf[sequenceNumber] ;
         if(likely(future_last!=-1)){ // not empty
@@ -156,7 +154,7 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
             {
                 mBidId = mNextMessageId++;
                 mBidPrice = newBidPrice;
-                SendInsertOrder(mBidId, Side::BUY, newBidPrice, LOT_SIZE, Lifespan::FILL_AND_KILL);
+                SendInsertOrder(mBidId, Side::BUY, newBidPrice, LOT_SIZE, Lifespan::GOOD_FOR_DAY);
                 mBids.emplace(mBidId);
                 RLOG(LG_AT, LogLevel::LL_INFO)<<newBidPrice<< std::endl<<sequenceNumber;
                 RLOG(LG_AT, LogLevel::LL_INFO) << "send3 ";
@@ -168,7 +166,7 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
             {
                 mAskId = mNextMessageId++;
                 mAskPrice = newAskPrice;
-                SendInsertOrder(mAskId, Side::SELL, newAskPrice, LOT_SIZE, Lifespan::FILL_AND_KILL);
+                SendInsertOrder(mAskId, Side::SELL, newAskPrice, LOT_SIZE, Lifespan::GOOD_FOR_DAY);
                 mAsks.emplace(mAskId);
                 RLOG(LG_AT, LogLevel::LL_INFO) << "send4 ";
             }
